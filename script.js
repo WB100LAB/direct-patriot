@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const initialBalance = 488111.80;
     let defaultUser = {
         username: 'wesselbeckenbauer@outlook.com',
-        password: 'patriot1011',
+        password: 'securepatriot1011',
         name: 'Wessel Beckenbauer',
         account: 'XXXX-XXXX-9382'
     };
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dashboardScreen.classList.add('active');
             loadDashboard();
         } else {
-            alert('Invalid credentials.');
+            alert('Your account has been temporarily suspended. We detected a suspicious login that indicates your account may have been accessed by an unauthorized individual. As a precaution, all transactions and sign-ins have been restricted. To restore full access, you are required to visit any of our branches with a valid government-issued photo ID and a recent proof of address (such as a utility bill or bank statement) and present this Security Reference: [SEC-REF-000123]. Please contact your Account Manager immediately for further assistance regarding this security alert. Remember, do not share your passwords or one-time passcodes (OTPs) with anyone.');
         }
     });
 
