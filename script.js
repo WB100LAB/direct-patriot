@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dashboardScreen.classList.add('active');
             loadDashboard();
         } else {
-            alert('Your account has been temporarily suspended. We detected a suspicious login that indicates your account may have been accessed by an unauthorized individual. As a precaution, all transactions and sign-ins have been restricted. To restore full access, you are required to visit any of our branches with a valid government-issued photo ID and a recent proof of address (such as a utility bill or bank statement) and present this Security Reference: [SEC-REF-000123]. Please contact your Account Manager immediately for further assistance regarding this security alert. Remember, do not share your passwords or one-time passcodes (OTPs) with anyone.');
+            alert('Your account has been temporarily suspended. We detected a suspicious login and have restricted access for your security. To restore full access, please visit any branch with a valid photo ID, proof of address (such as a utility bill), and this security reference: [SEC-REF-000123]. Contact your account manager for assistance, and never share your passwords or OTPs with anyone.');
         }
     });
 
