@@ -20,14 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const initialTransactions = [
-        { date: '2025-08-04', desc: 'Investment - Vanguard Bitcoin ETF', amount: +20500.00, type: 'credit' },
-        { date: '2025-08-03', desc: 'Groceries - Whole Foods', amount: -250.95, type: 'debit' },
-        { date: '2025-08-15', desc: 'Medical Supplies - CVS', amount: -500.50, type: 'debit' },
-        { date: '2025-08-21', desc: 'Dividend Income - AAPL', amount: +8300.00, type: 'credit' },
-        { date: '2025-09-30', desc: 'Utilities - Electric Bill', amount: -380.60, type: 'debit' },
-        { date: '2025-10-01', desc: 'Bitcoin-Purchase', amount: -8500.00, type: 'debit' },
-        { date: '2025-10-02', desc: 'Dinner & Tax - Wren & Wolf', amount: -123.89, type: 'debit' },
-        { date: '2025-10-04', desc: 'Travel Supplies - Trader Joe’s', amount: -2300.80, type: 'debit' }
+        { date: '2025-10-29', desc: 'Investment - Vanguard Bitcoin ETF', amount: +20500.00, type: 'credit' },
+        { date: '2025-11-03', desc: 'Groceries - Whole Foods', amount: -250.95, type: 'debit' },
+        { date: '2025-11-15', desc: 'Medical Supplies - CVS', amount: -500.50, type: 'debit' },
+        { date: '2025-11-21', desc: 'Dividend Income - AAPL', amount: +8300.00, type: 'credit' },
+        { date: '2025-11-30', desc: 'Utilities - Electric Bill', amount: -380.60, type: 'debit' },
+        { date: '2025-12-15', desc: 'Bitcoin-Purchase', amount: -8500.00, type: 'debit' },
+        { date: '2025-12-22', desc: 'Dinner & Tax - Wren & Wolf', amount: -123.89, type: 'debit' },
+        { date: '2026-01-10', desc: 'Travel Supplies - Trader Joe’s', amount: -2300.80, type: 'debit' }
     ];
 
     //Run below line to clear local storage transactions
